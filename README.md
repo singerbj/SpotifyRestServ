@@ -3,7 +3,9 @@ SpotifyRestServ
 
 A server that puts a simple restful interface on top of libspotify, built with Sinatra, Hallon, and Hallon OpenAL.
 
-To start the server make sure you have ruby and bundler installed, clone the repo, run 
+To start the server make sure you have ruby and bundler installed, clone the repo, add your developer key in the directory,
+
+run 
 ```
 bundle install
 ```
