@@ -1,12 +1,11 @@
 #!/usr/bin/env ruby
 
 require 'sinatra'
-
-puts "Starting server..."
-
 require 'hallon'
 require 'hallon-openal'
 require 'json'
+
+puts "Starting server..."
 
 configure do
   set :logged_in, false
