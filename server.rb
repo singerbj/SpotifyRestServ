@@ -77,6 +77,7 @@ get '/' do
 end
 
 get '/status' do
+  settings.status[:user] = "#{settings.session.user.to_link.to_str}" 
   r = JSON.generate(settings.status)
   puts r
   r
